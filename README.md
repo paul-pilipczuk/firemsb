@@ -1,3 +1,6 @@
+# Test Videos
+Test videos of video upload and of the YOLO model working can be found in the `video_demo` directory. The full video demo is a lengthy video, it will need to be downloaded to be replayed.
+
 # MySwingBuddy
 
 MySwingBuddy is a project that allows the user to login using Firebase, to access their account where they will be able to upload videos of themselves swinging a golf club. Over the duration of the video the user will have the points on the video, where the head of the golf club travels throughout the duration, mapped and the video will be returned to the user. The user will then be able to take notes on their swing, as well as being able to see what professional players are doing for that type of swing (based on research of what professional golfers do for their swing). Each video has the orignal video saved, and there is a version of the video that allows for the user to see the original swing and the overlay for that swing. 
@@ -44,7 +47,7 @@ Additionally, through using the Firebase console, if this is added to a new proj
 Within the `src` folder there are the also components and pages for the web application, these are organized by what the function of the page is and they route between eachother.
 
 ## Flask Installations and Configuration After Cloning 
-Currently the packages being used for video playback control and any transformations to the data itself can be found in `yolo` folder. Within here `video_tools_XXX.py` files that contain scripts that will be used for video processing for different setups. These were the building blocks of the `flask_server` folder. Create a virtual enviroment
+Currently the packages being used for video playback control and any transformations to the data itself can be found in `yolo` folder. Within here `video_tools_XXX.py` files that contain scripts that will be used for video processing for different setups. These were the building blocks of the `flask_server` folder. Create a virtual enviroment:
 
 - pip (Python package manager)
 
@@ -109,4 +112,4 @@ Run `ng serve` for a dev server, since the project is locally hosted this will b
 
 ## Contributing
 
-This project was created by Tu-Nguyen2 and paul-pilipczuk. Any questions should be directed to either developer on the project, please do not hesitate to reach out.
+This project was created by paul-pilipczuk and Tu-Nguyen2.
